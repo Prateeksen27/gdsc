@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header-main-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f0f0f0;
+}
+.header-logo img {
+    max-width: 100px;
+}
+.header-options ul {
+    list-style-type: none;
+}
+.header-options ul li {
+    display: inline;
+}
+.header-options ul li a {
+    margin-right: 60px;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: monospace;
+    color: #333;
+}
+.header-options ul li a:hover {
+    color: #555;
+}
+

@@ -1,0 +1,247 @@
+:root {
+    --googleBlue: #2970e6;
+    --googleRed: #db4437;
+    --googleGreen: #0f9d58;
+    --googleYellow: #f4b400;
+    --height: 100px;
+}
+.Landing-main {
+    position: relative;
+}
+.images-logo > img{
+    animation: 10s ease 0s infinite normal none running float2;
+}
+@keyframes float2{
+    0% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(17px) translateX(-4px) rotate(3deg);
+    }
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
+.images-logo {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    margin-top: 60px;
+}
+
+/* Define positions for each image */
+.images-logo img {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    
+}
+section {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, monospace;
+    
+}
+/*Adjust*/
+#root > div > div.Landing-main > div > img:nth-child(1){
+    left: 50%;
+    top: 100px;
+    animation-delay: 1s;
+}
+#root > div > div.Landing-main > div > img:nth-child(2){
+    left: 41%;
+    top: 140px;
+    animation-delay: 1.3s;
+}
+#root > div > div.Landing-main > div > img:nth-child(3){
+    left: 45%;
+    top: 120px;
+    width: 40px;
+    height: 40px;
+    animation-delay: 1.6s;
+}
+#root > div > div.Landing-main > div > img:nth-child(4){
+    left: 40%;
+    top: 19rem;
+    animation-delay: 1.9s;
+}
+#root > div > div.Landing-main > div > img:nth-child(5){
+    left: 50%;
+    top: 24rem;
+    height: 35px;
+    width: 35px;
+    animation-delay: 2.2s;
+}
+#root > div > div.Landing-main > div > img:nth-child(6){
+    left: 60%;
+    top: 24rem;
+    animation-delay: 2.5s;
+}
+#root > div > div.Landing-main > div > img:nth-child(7){
+    left: 53%;
+    top: 140px;
+    animation-delay: 2.8s;
+}
+#root > div > div.Landing-main > div > img:nth-child(8){
+    left: 35%;
+    top: 15.9rem;
+    animation-delay: 3.1s;
+}
+#root > div > div.Landing-main > div > img:nth-child(9){
+    left: 54.7%;
+    top: 80px;
+    animation-delay: 4s;
+}
+#root > div > div.Landing-main > div > img:nth-child(10){
+    left: 49%;
+    top: 160px;
+    height: 35px;
+    width: 35px;
+    animation-delay: 4.5s;
+}
+#root > div > div.Landing-main > div > img:nth-child(11){
+    left: 36%;
+    top: 12.7rem;
+    animation-delay: 4.8s;
+}
+#root > div > div.Landing-main > div > img:nth-child(12){
+    left: 37%;
+    top: 120px;
+    animation-delay: 5.1s;
+}
+#root > div > div.Landing-main > div > img:nth-child(13){
+    left: 44%;
+    top: 24rem;
+    height: 45px;
+    width: 45px;
+    animation-delay: 5.4s;
+}
+
+#root > div > div.Landing-main > div > img:nth-child(14){
+    left: 57%;
+    top: 26rem;
+    height: 45px;
+    width: 45px;
+    animation-delay: 5.9s;
+}
+#root > div > div.Landing-main > div > img:nth-child(15){
+    left: 59%;
+    top: 15.9rem;
+    width: 45px;
+    height: 45px;
+    animation-delay: 6.5s;
+}
+#root > div > div.Landing-main > div > img:nth-child(16){
+    left: 32%;
+    top: 13rem;
+    width: 45px;
+    height: 45px;
+    animation-delay: 7.1s;
+}
+#root > div > div.Landing-main > div > img:nth-child(17){
+    left: 35%;
+    top: 20rem;
+    width: 45px;
+    height: 45px;
+    animation-delay: 5.97s;
+}
+#root > div > div.Landing-main > div > img:nth-child(18){
+    left: 59%;
+    top: 9rem;
+    width: 45px;
+    height: 45px;
+    animation-delay: 3.7s;
+}
+#root > div > div.Landing-main > div > img:nth-child(19){
+    left: 63%;
+    top: 13rem;
+    width: 45px;
+    height: 45px;
+    animation-delay: 7.2s;
+}
+#root > div > div.Landing-main > div > img:nth-child(20){
+    left: 53%;
+    top: 24rem;
+    height: 70px;
+    width: 70px;
+    animation-delay: 2.9s;
+}
+#root > div > div.Landing-main > div > img:nth-child(21){
+    left: 47%;
+    top: 5rem;
+    height: 45px;
+    width: 45px;
+    animation-delay: 6.8s;
+}
+
+#root > div > div.Landing-main > div > img:nth-child(22){
+    left: 63%;
+    top: 17rem;
+    width: 45px;
+    height: 45px;
+    animation-delay: 2.98s;
+}
+#root > div > div.Landing-main > div > img:nth-child(23){
+    left: 61%;
+    top: 20rem;
+    width: 70px;
+    height: 70px;
+    animation-delay: 8.5s;
+}
+h1 {
+    font-size: 72px;
+}
+
+#root > div > div > section > div > h1:nth-child(1) > span:nth-child(1),
+#root > div > div > section > div > h1:nth-child(2) > span:nth-child(1) {
+    color: var(--googleBlue);
+}
+
+#root > div > div > section > div > h1:nth-child(1) > span:nth-child(2),
+#root > div > div > section > div > h1:nth-child(2) > span:nth-child(2) {
+    color: var(--googleRed);
+}
+
+#root > div > div > section > div > h1:nth-child(1) > span:nth-child(3),
+#root > div > div > section > div > h1:nth-child(2) > span:nth-child(3) {
+    color: var(--googleYellow);
+}
+
+#root > div > div > section > div > h1:nth-child(1) > span:nth-child(4),
+#root > div > div > section > div > h1:nth-child(2) > span:nth-child(4) {
+    color: var(--googleGreen);
+}
+
+#root > div > div > section > div > h1:nth-child(2) > span:nth-child(5) {
+    color: var(--googleRed);
+}
+/* Media queries for responsiveness */
+@media only screen and (max-width: 768px) {
+    /* Adjustments for smaller screens */
+    .images-logo img {
+        width: 40px;
+        height: 40px;
+    }
+
+    #root > div > div.Landing-main > div > img {
+        animation: 8s ease 0s infinite normal none running float2;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    /* Adjustments for even smaller screens */
+    .images-logo img {
+        width: 30px;
+        height: 30px;
+    }
+
+    #root > div > div.Landing-main > div > img {
+        animation: 6s ease 0s infinite normal none running float2;
+    }
+}
